@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Role;
 (function (Role) {
     Role[Role["Admin"] = 0] = "Admin";
@@ -10,21 +12,21 @@ var Role2;
     Role2["User"] = "User";
     Role2["Guest"] = "Guest";
 })(Role2 || (Role2 = {}));
-var userRole = Role2.Admin;
+let userRole = Role2.Admin;
 // variable maste ha ett specifikt varde
-var userRole2 = 'admin';
+let userRole2 = 'admin';
 // gar ej: let userRole3: 'guest' = 'admin';
 // Maste matcha en av de specificerade
-var userRole3 = 'admin';
-var possibleResults;
+let userRole3 = 'admin';
+let possibleResults;
 possibleResults = [1, 1];
 possibleResults = [-1, 1];
 console.log(userRole);
-var user1 = {
+const user1 = {
     name: 'Test',
     age: 20,
     title: 'OpSec',
-    choice: 'stes',
+    choice: 2,
 };
 console.log(user1);
-var find = function (user) { };
+const find = (user) => { };

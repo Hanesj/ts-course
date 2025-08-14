@@ -1,10 +1,12 @@
-var add = function (a, b) {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const add = (a, b) => {
     return a + b;
 };
-var log = function (msg) {
+const log = (msg) => {
     console.log(msg);
 };
-var logAndThrow = function (errMsg) {
+const logAndThrow = (errMsg) => {
     console.log(errMsg);
     throw new Error(errMsg);
 };
@@ -12,10 +14,10 @@ function perfomJob(cb) {
     cb('Done');
 }
 perfomJob(log);
-var user1 = {
+let user1 = {
     name: 'Hej',
     age: 28,
-    greet: function () {
+    greet() {
         console.log('Hello!');
         return this.name;
     },

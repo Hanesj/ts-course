@@ -34,4 +34,3 @@ let user1: User = {
 
 user1.greet();
 
-export {};

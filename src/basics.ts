@@ -10,4 +10,3 @@ const add = (a: number, b = 10) => {
 };
 
 console.log(add(10));
-export {};

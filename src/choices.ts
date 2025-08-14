@@ -43,4 +43,3 @@ const user1 = {
 console.log(user1);
 const find = (user: User) => {};
 
-export {};

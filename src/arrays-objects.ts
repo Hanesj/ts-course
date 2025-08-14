@@ -50,4 +50,3 @@ data = {
 	k2: 'String',
 };
 
-export {};
